@@ -16,6 +16,7 @@ from .image_overlay import ImageOverlay
 from .fullscreen import Fullscreen
 from .polyline_text_path import PolyLineTextPath
 from .float_image import FloatImage
+from .icon_numbered import IconNumbered
 
 __all__ = [
     'MarkerCluster',
@@ -27,5 +28,6 @@ __all__ = [
     'ImageOverlay',
     'Fullscreen',
     'PolyLineTextPath',
-    'FloatImage'
+    'FloatImage',
+    'IconNumbered'
     ]
